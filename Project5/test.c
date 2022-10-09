@@ -373,25 +373,205 @@ int main()
 //}
 
 
+//#include<stdio.h>
+//int main()
+//{
+//	int a,b, t;
+//	printf("请输入两个整数：");
+//	scanf_s("%d,%d", &a, &b);
+//	if (a > b)
+//	{
+//		t = a; a = b; b = t;
+//	}//交换 a和b
+//	printf("由小到大排序为%d,%d\n", a,b);
+//}
 
 
 
 
+//22.10.9 循环
+//#include<stdio.h>
+//int main()
+//{
+//	int ch = 0;
+//	while ((ch = getchar()) != EOF)
+//	{
+//		putchar(ch);
+//	}
+//	return 0;
+//}
+
+//#include<stdio.h>
+//int main()
+//{
+//	int ret = 0;
+//	char password[20] = { 0 };
+//	printf("请输入密码：");
+//	scanf_s("%s", &password);
+//	printf("请确认(Y/N):>");
+//	ret = getchar();
+//	if (ret == 'Y')
+//	{
+//		printf("确认成功");
+//	}
+//	else
+//	{
+//		printf("放弃确认");
+//	}
+//	return 0;
+//}
+
+
+//#define  _CRT_SECURE_NO_WARNINGS
+//#include<stdio.h>
+//int main()
+//{
+//	int ret = 0;
+//	char password[20] = { 0 };
+//	printf("请输入密码:>");
+//	scanf("%s", &password);
+//	//输入密码，并存放在password数组中
+//	//缓冲区还剩下'\n'
+//	//读取一下'\n'
+//	printf("123\n");
+//	int a=getchar();
+//	printf("请确认(Y/N):>");
+//	ret = getchar();
+//	if (ret == 'Y')
+//	{
+//		printf("确认成功");
+//	}
+//	else
+//	{
+//		printf("放弃确认");
+//	}
+//	return 0;
+//}
+
+
+//#include<stdio.h>
+//int main()
+//{
+//	int ret = 0;
+//	char password[20] = { 0 };
+//	printf("请输入密码:>");
+//	fgets(password, 20, stdin);    //未学
+//	//输入密码，并存放在password数组中
+//	//缓冲区还剩下’\n'
+//	//读取一下'\n'printf("123");
+//	printf("请确认(Y/N):>");
+//	ret = getchar();
+//	if (ret == 'Y') {
+//		printf("确认成功");
+//	}
+//	else {
+//		printf("放弃确认");
+//	}
+//	return 0;
+//}
+
+//#define  _CRT_SECURE_NO_WARNINGS
+//#include<stdio.h>
+//int main()
+//{
+//	int ret = 0;
+//	int ch = 0;
+//	char password[20] = { 0 };
+//	printf("请输入密码:");
+//	scanf("%s", password);
+//	while ((ch = getchar()) != '\n')
+//	{
+//		;
+//	}
+//	printf("请确认(Y/N):>");
+//	ret = getchar();
+//	if (ret == 'Y')
+//	{
+//		printf("确认成功");
+//	}
+//	else
+//	{
+//		printf("确认失败");
+//	}
+//	return 0;
+//}
 
 
 
 
+//#include<stdio.h>
+//int main()
+//{
+//	int ch = 0;
+//	while ((ch = getchar()) != EOF)
+//	{
+//		if (ch < '0' || ch>'9')
+//			continue;
+//		putchar(ch);
+//	}
+//	return 0;
+//}
+
+//#include<stdio.h>
+//int main()
+//{
+//	int i = 0;
+//	for (i = 1; i <= 10; i++)
+//	{
+//		printf("%d ", i);
+//	}
+//	return 0;
+//}
+
+//#define  _CRT_SECURE_NO_WARNINGS
+//#include<stdio.h>
+//int main()
+//{
+//	int month = 0;
+//	scanf("%d", &month);
+//	switch (month)
+//	{
+//	case 1:
+//	case 2:
+//	case 3:printf("春季"); break;
+//	case 4:
+//	case 5:
+//	case 6:printf("夏季"); break;
+//	case 7:
+//	case 8:
+//	case 9:printf("秋季"); break;
+//	case 10:
+//	case 11:
+//	case 12:printf("冬季"); break;
+//	default:printf("错误");
+//	}
+//	return 0;
+//}
 
 
-
-
-
-
-
-
-
-
-
+//#define  _CRT_SECURE_NO_WARNINGS
+//#include<stdio.h>
+//#include<math.h>
+//int main()
+//{
+//	float x = 0;
+//	float y = 0;
+//	scanf("%f", &x);
+//	if (x < 2)
+//	{
+//		y = fabs(x);
+//	}
+//	else if (x <= 10)
+//	{
+//		y = 2 * x + 1;
+//	}
+//	else
+//	{
+//		y = x / 2;
+//	}
+//	printf("y=%.2f", y);
+//	return 0;
+//}
 
 
 
